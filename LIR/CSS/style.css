@@ -1,0 +1,236 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.title_screen {
+    padding: 12px 0px;
+    background-image: url(../img/fon.png);
+}
+
+.header_elements {
+    margin: 24px 75px 24px 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sections {
+    display: flex;
+}
+
+.section {
+    color: #B1B1B1;
+    font-size: 14px;
+    padding: 0px 14px;
+}
+
+.number {
+    color: #E3C37A;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+hr {
+    color: #B1B1B1;
+    opacity: 16%;
+    height: 1px;
+    min-width: none;
+}
+
+.main {
+    margin: 65px 461px 0px 69px;  
+    display: flex;
+   height: 380px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.subtitle {
+    color: #B1B1B1;
+    font-size: 16px;
+    padding: 32px 0px 0px 0px;
+}
+
+.bid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 87px;
+}
+
+.bid_text {
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+.order {
+    justify-content: space-between;
+}
+
+input {
+    height: 44px;
+    width: 298px;
+}
+
+.order_text {
+    color: #FFFFFF;
+    border: solid 1px #E3C37A;
+    padding: 12px 24px;
+}
+.statistics{
+    display: inline flex;
+justify-content: flex-start;
+}
+h1{
+    font-size: 56px;
+    color: #FFFFFF;
+}
+h2{
+font-size: 40px;
+color: #E3C37A;
+}
+.statistic{
+padding: 38px 109px 0px 39px;
+color: #B1B1B1;
+}
+.criterion{
+     padding: 16px 0px 0px 0px;
+}
+.leader{
+    background-image: url(../img/fon2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
